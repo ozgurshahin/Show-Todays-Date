@@ -1,0 +1,14 @@
+body {
+    width: 300px;
+    height: 200px;
+    display: flex;
+    flex-direction: column; /* Yeni özellik: öğeleri dikey hizada sıralar */
+    gap: 10px; /* Yeni özellik: öğeler arasında biraz boşluk bırakır */
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+}
+
+#current-date {
+    font-size: 20px;
+}
